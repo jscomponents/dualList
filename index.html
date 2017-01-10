@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="author" content="Edy Segura" />
+<meta name="reply-to" content="edy@segura.pro.br" />
+<title>Componente DualList.js</title>
+
+<!-- stylesheet -->
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+
+<!-- javascript -->
+<script type="text/javascript" src="js/DualList/DualList.js"></script>
+<script type="text/javascript" src="js/Index.js"></script>
+
+</head>
+<body>
+	
+<h1>Componente DualList.js</h1>
+<p>
+	Componente para transferir valores de uma lista para outra. <br />
+	Para mais detalhes veja o código fonte.
+	Ou se preferir faça o 
+	<a href="http://files.edysegura.com/labs/dualList.zip">download</a> deste 
+	<a href="http://files.edysegura.com/labs/dualList.zip">exemplo</a>.
+</p>
+
+<form action="" method="post">
+	<fieldset id="dualList-1" class="dualList">
+		<legend>Permissões</legend>
+		
+		<label for="permissao">
+			Permissão: <br />
+			<select name="permissao" id="permissao" size="10" multiple="multiple">
+				<option value="">Nenhuma permissão</option>
+			</select>
+		</label>
+
+		<div class="buttons">
+			<img src="images/all2left.png" id="all2Left" alt="all2left" title="Mover todos para esquerda" />
+			<img src="images/right2left.png" id="right2Left" alt="right2left" title="Mover para esquerda" />
+			<img src="images/all2right.png" id="all2Right" alt="all2right" title="Mover todos para direita" />
+			<img src="images/left2right.png" id="left2Right" alt="left2right" title="Mover para direita" />
+		</div>
+		
+		<label for="permissoes">
+			Permissões: <br />
+			<select name="permissoes" id="permissoes" size="10" multiple="multiple">
+				<option value="c">Cadastrar</option>
+				<option value="d">Deletar</option>
+				<option value="a">Atualizar</option>
+				<option value="r">Relatórios</option>
+				<option value="f">Financeiro</option>
+			</select>
+		</label>
+		
+	</fieldset>
+	
+	<fieldset id="dualList-2" class="dualList">
+		<legend>Permissões</legend>
+		
+		<label for="permissao2">
+			Permissão: <br />
+			<select name="permissao2" id="permissao2" size="10" multiple="multiple">
+				<option value="">Nenhuma permissão</option>
+			</select>
+		</label>
+
+		<div class="buttons">
+			<img src="images/all2left.png" id="all2Leftp2" alt="all2left" title="Mover todos para esquerda" />
+			<img src="images/right2left.png" id="right2Leftp2" alt="right2left" title="Mover para esquerda" />
+			<img src="images/all2right.png" id="all2Rightp2" alt="all2right" title="Mover todos para direita" />
+			<img src="images/left2right.png" id="left2Rightp2" alt="left2right" title="Mover para direita" />
+		</div>
+		
+		<label for="permissoes2">
+			Permissões: <br />
+			<select name="permissoes2" id="permissoes2" size="10" multiple="multiple">
+				<option value="c">Cadastrar</option>
+				<option value="d">Deletar</option>
+				<option value="a">Atualizar</option>
+				<option value="r">Relatórios</option>
+				<option value="f">Financeiro</option>
+			</select>
+		</label>
+		
+	</fieldset>
+</form>
+
+</body>
+</html>

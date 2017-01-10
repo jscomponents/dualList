@@ -1,0 +1,35 @@
+/**
+ *
+ * CSS For DualList
+ * @author Edy Segura, edy@segura.pro.br
+ *
+ */
+
+fieldset.dualList {
+	width: 600px;
+}
+
+fieldset.dualList label {
+	display: block;
+	width: 250px;
+	float: left;
+}
+
+fieldset.dualList select {
+	width: 250px;
+}
+
+fieldset.dualList div.buttons {
+	float: left;
+	width: 10px;
+	margin: 20px 20px 0 20px;
+	padding-top: 10px;
+}
+
+fieldset.dualList div.buttons img {
+	display: block;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+	margin-bottom: 25px;
+}
